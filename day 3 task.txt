@@ -1,0 +1,32 @@
+Question 1 
+
+For the given JSON iterate over all for loops (for in)
+
+var Subject = {
+Subject1: "Tamil",
+Subject2: "English",
+Subject3: "Maths",
+Subject4: "Science",
+Subject5: "Social"
+}
+for (var a in Subject){
+console.log(a, Subject[a]);
+}
+
+Question 2
+
+Create your own resume data in JSON format 
+
+var resume = {
+"Name": "Jaison",
+"Date of Birth": "23/11/1997",
+"Mail ID": "jaison@yahoo.com",
+"Contact Number": "8756987456",
+"Address": "58/7, Anna Salai, Karaikdui",
+"Pincode": "659786",
+"Skills": "JavaScript, HTML",
+"Qualification": "B.E., MBA.,"
+}
+for (var a in resume){
+console.log(a, resume[a]);
+} 
